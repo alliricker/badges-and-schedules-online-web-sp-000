@@ -26,7 +26,7 @@ end
 def printer(name)
   counter = 1
   name.each do |person|
-  puts "Hello, {person}! You'll be assigned to room #{counter}!"
+  puts "Hello, #{}{person}! You'll be assigned to room #{counter}!"
    counter += 1
  end
 end
