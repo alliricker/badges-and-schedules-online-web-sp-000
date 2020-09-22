@@ -24,9 +24,10 @@ def assign_rooms(name)
 end
 
 def printer(name)
-  counter = 1
-  name.each do |person|
-  puts "Hello, #{}{person}! You'll be assigned to room #{counter}!"
-   counter += 1
- end
+batch_badge_creator(name).each do |person|
+  puts person
+  end
+assign_rooms(name).each do |person|
+  puts person
+  end
 end
