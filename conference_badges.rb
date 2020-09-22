@@ -27,4 +27,5 @@ def printer(name)
   counter = 1
    puts name.each do |person|
    counter += 1
+ end
 end
