@@ -22,3 +22,7 @@ def assign_rooms(name)
   end
   return welcome_array
 end
+
+def printer(name)
+  puts assign_rooms(name)
+end
