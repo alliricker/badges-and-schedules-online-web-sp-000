@@ -4,18 +4,19 @@ def badge_maker(name)
 end
 
 
-def batch_badge_creator(name)
+def batch_badge_creator(array)
   new_array = []
-  name.each do |person|
+  name.each do |name|
   new_array << "Hello, my name is #{person}."
   end
   return new_array
 end
 
-counter = 1
-def assign_rooms(name)
+
+def assign_rooms(array)
   welcome_array = []
-  name.each do |person|
+  counter = 1
+  array.each do |name|
     welcome_array << "Hello, #{person}! You'll be assigned to room #{counter}!"
     counter += 1
   end
