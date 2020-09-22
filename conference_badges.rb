@@ -25,7 +25,8 @@ end
 
 def printer(name)
   counter = 1
-   puts name.each do |person|
+  name.each do |person|
+  puts "Hello, my name is #{person}."
    counter += 1
  end
 end
