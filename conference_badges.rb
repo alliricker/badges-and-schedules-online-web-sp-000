@@ -21,4 +21,3 @@ def assign_rooms(name)
   end
   return welcome_array
 end
-  
