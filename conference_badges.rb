@@ -25,6 +25,6 @@ end
 
 def printer(name)
   counter = 1
-   puts batch_badge_creator(name)
-   counter += 1 
+   puts name.each do |person|
+   counter += 1
 end
